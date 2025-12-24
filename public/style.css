@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0a0a0a;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #f5f5f5;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.tabs button {
+    background: #03fcef;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.tabs button.active {
+    background: #05f3f3;
+}
+
+.form input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+.form button {
+    width: 100%;
+    padding: 10px;
+    background: #f50404;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.mensagem {
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
